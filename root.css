@@ -1,0 +1,61 @@
+:root {
+    --title-1: rgb(17, 120, 255);
+    --title-2: rgb(51, 71, 105);
+
+    --background: rgb(232, 233, 241);
+    --background-box: rgb(174, 188, 215);
+    --background-select: rgb(154, 175, 228);
+
+    --text-1: rgb(23, 54, 108);
+    --text-2: rgb(89, 124, 184);
+
+    --button: #0e2d63;
+
+    --padding: 3vw;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --title-1: rgb(17, 120, 255);
+        --title-2: rgb(170, 201, 255);
+
+        --background: rgb(27, 28, 32);
+        --background-box: rgb(36, 37, 39);
+        --background-select: rgb(45, 51, 67);
+
+        --text-1: rgb(170, 201, 255);
+        --text-2: rgb(108, 130, 168);
+
+        --button: #d5e1f6;
+    }
+}
+
+::selection {
+    background-color: var(--title-1);
+    color: var(--background);
+}
+
+*{
+    margin: 0;
+    font-family: "Mulish", serif;
+    transition: all 0.3s;
+}
+
+body{
+    background-color: var(--background);
+    padding: var(--padding);
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding);
+}
+
+h1{
+    font-family: "Lexend", "Mulish", serif;
+    color: var(--title-1);
+}
+
+p{
+    font-weight: 600;
+}
