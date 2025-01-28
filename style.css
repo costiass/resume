@@ -10,9 +10,9 @@ header{
     .icon-container {
         z-index: -1;
         position: absolute;
-        top: 0;
-        left: 0;
-        width: 100vw;
+        top: -10vw;
+        left: -10vw;
+        width: 120vw;
         height: 100vh;
         overflow: hidden;
 
