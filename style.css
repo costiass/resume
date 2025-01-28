@@ -6,6 +6,7 @@ header{
     justify-content: center;
     align-items: start;
     margin-bottom: var(--padding);
+    overflow: hidden;
 
     .icon-container {
         z-index: -1;
@@ -13,7 +14,7 @@ header{
         top: -10vw;
         left: -10vw;
         width: 120vw;
-        height: 100vh;
+        height: 110vh;
         overflow: hidden;
 
         .icon {
